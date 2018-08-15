@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-2.0.dtd" >
+<suite name="Suite" parallel="false">
+
+  <test name="Demo" >
+    <classes>
+      <class name="to8to_app.logins">
+          <methods preserve-order="true">
+              <include name="BtnStay" />
+              <include name="loginContact" />
+              <include name="clickSetting" />
+          </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
